@@ -60,6 +60,7 @@ if [ -z "${NAME_PREFIX}" ]; then
         quay.io/cilium/kube-wireguarder:0.0.4 \
         quay.io/cilium/net-test:v1.0.0 \
         quay.io/coreos/etcd:v3.4.7 \
+        docker.io/networkstatic/iperf3@sha256:e9bbc8312edff13e2ecccad0907db4b35119139e133719138108955cf07f0683 \
 
     do
           echo "pulling image: $img"
